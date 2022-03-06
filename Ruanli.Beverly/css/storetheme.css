@@ -1,5 +1,9 @@
 :root {
-    --color-offwhite:  #d8d1d1;             /* background color*/
+    --color-offwhite:  #eeeded;             /* background color*/
+  
+    --color-main-light: rgb(114, 114, 197);
+    --color-main-medium: rgb(114, 114, 197);
+    --color-main-dark: rgb(114, 114, 197);
 }
 
 body{

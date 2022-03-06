@@ -7,7 +7,11 @@
 :root {
     --color-neutral-light:#eee;
     --color-neutral-medium:#999;
-    --color-neutral-dark:rgb(130, 112, 179);
+    --color-neutral-dark:#eeeded;
+
+    --color-main-light: lightblue;
+    --color-main-medium: rgb(75, 23, 219);
+    --color-main-dark: rgb(129, 180, 47);
 
     --color-black:#000;
     --color-white: #fff;
@@ -22,7 +26,7 @@
 body {
     margin:0;
     font-size:100%;
-    font-family:var(--font-sans);
+    font-family: 'Source Code Pro', monospace;
 }
 
 h1,
@@ -31,7 +35,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family:var(--font-serif);
+    font-family: 'Source Code Pro', monospace;
 
 }
 
@@ -77,17 +81,54 @@ a:hover {
 
 }
 
-.navbar{
+.nav a {
+    display:block;
+    padding:0.2em 0.5em;
+}
+.nav a:hover {
+    background-color: var(--color-main-medium);
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+.nav-pills ul,
+.nav-stretch ul,
+.nav-flex ul{
+    display: flex;
+}
+
+.nav-stretch li {
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+.nav-pills a {
+    border-radius:2em;
+    padding: 0.5 em 1em;
+}
+
+
+.navbar {
     background-color: var(--color-neutral-dark);
     color: var(--color-white);
     line-height:var(--header-height);               /*height of the top nav bar color*/
+    border-bottom: 1px solid #494949;
 }
 
     .navbar h1 {
+        font-size:2em;
+        margin:0;
+        color: black;
+        font-family: 'Shadows Into Light Two', cursive;
+    }
+
+    .navbar h2 {
         font-size:1em;
         margin:0;
-        font-family: var(--font-sans);
+        color: black;
+        font-family: 'Source Code Pro', monospace;
     }
+
 
     .navbar a {                                 /*the distance between the nav links*/
         padding: 0 4em;
@@ -138,4 +179,28 @@ a:hover {
     background-attachment: fixed;
     margin-right: 10%;
     margin-left: 10%;
+}
+
+
+.topnavbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnavbar a:hover {
+    color: rgb(114, 114, 197);
+}
+
+.topnavbar input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
 }
