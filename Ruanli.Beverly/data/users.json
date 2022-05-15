@@ -1,0 +1,32 @@
+[
+    {
+        "name":"Beverly Ruan Li",
+        "type":"Student",
+        "email":"beverlyruanli@hotmail.com",
+        "classes":[608,617,820]
+    },
+    {
+        "name":"Nicole Alex",
+        "type":"Chemist",
+        "email":"nalex@hotmail.com",
+        "classes":[605,616,825]
+    },
+    {
+        "name":"Rachel Monique",
+        "type":"Biologist",
+        "email":"rmonyl@hotmail.com",
+        "classes":[645,614,895]
+    },
+    {
+        "name":"Ame Li",
+        "type":"Secretary",
+        "email":"abeccali@hotmail.com",
+        "classes":[963,154,870]
+    },
+    {
+        "name":"Monica Linares",
+        "type":"Professor",
+        "email":"monicalin@hotmail.com",
+        "classes":[568,646,896]
+    }
+]

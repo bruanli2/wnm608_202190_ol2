@@ -1,0 +1,350 @@
+html,body{
+
+	width: 100%;
+
+	height: auto;
+
+	margin: 0;
+
+
+
+}
+
+
+
+
+
+body{
+
+	
+
+	background: linear-gradient(0deg, beige, rgb(96, 126, 155));
+
+	background-repeat: repeat;
+
+	background-size: cover;
+
+	min-height: 75vh; 
+
+	display: flex;
+
+	flex-direction: column;
+
+	font-family: 'Readex Pro', sans-serif;
+
+	font-family: 'Roboto', sans-serif;
+
+
+
+}
+
+
+
+main{
+
+	flex-grow: 1;
+
+	display: flex;
+
+	flex-direction: column;
+
+	align-items: center;
+
+	
+
+	
+
+}
+
+
+
+main p {
+
+	width: 60%;
+
+	 color:  #333131;
+
+
+
+}
+
+
+
+.artist_paragraph{
+
+	color:  #333131;
+
+	text-align: center;
+
+	justify-content: center;
+
+	margin-left: 500px;
+
+	margin-right: 100px;
+
+}
+
+
+
+nav{
+
+
+
+	display: flex;
+
+	flex-direction: row;
+
+	flex-wrap: wrap;
+
+	align: right;
+
+	margin: 0;
+
+	justify-content: right;
+
+	
+
+	
+
+}
+
+
+
+nav a {
+
+	padding: 8px;
+
+	color: whitesmoke;
+
+	margin-left: 50px;
+
+	font-size: 13px;
+
+	font-weight: bold;
+
+	word-spacing:3px;
+
+	letter-spacing:2px ;
+
+	text-decoration: none;
+
+	
+
+
+
+
+
+}
+
+a:hover{
+
+	color: yellow;
+
+}
+
+
+
+.image{
+
+	background-position: center;
+
+	background-repeat:repeat; 
+
+	background-size: cover;
+
+	 margin : 0;
+
+	width: 100%;
+
+	background: stretch;
+
+}
+
+
+
+
+
+address{
+
+	padding-top: 20px;
+
+}
+
+
+
+.artist_image{
+
+	float:right;
+
+	margin-left: 20px;
+
+	margin-bottom: 20px;
+
+
+
+}
+
+
+
+
+
+
+
+p {
+
+	justify-content: stretch;
+
+	text-align: justify;
+
+	line-height: 25px;
+
+}
+
+
+
+ 
+
+footer{
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+
+    margin-top:580px;
+
+    
+
+
+
+
+
+}
+
+footer,footer p{
+
+    flex-shrink: 0;
+
+    margin-left: 0;
+
+    margin-top: 20px;
+
+    justify-content: center;
+
+    font-size: 13px;
+
+
+
+}
+
+
+
+
+
+.zoom{
+
+	display: flex;
+
+}
+
+
+
+.main-image{
+
+	margin-right: 10px;
+
+}
+
+
+
+.main-image img{
+
+	width: 461px;
+
+	height: 600px;
+
+}
+
+
+
+
+
+.gallery{
+
+	display: flex;
+
+	flex-wrap: wrap;
+
+	 margin-left: 40px;
+
+     margin-right: 40px;
+
+    justify-content: center;
+
+
+
+	
+
+}
+
+
+
+.gallery-item{
+
+	flex: 0 0 25%;
+
+	margin-top: 50px;
+
+}
+
+
+
+
+
+.gallery img{
+
+	width: 100%;
+
+	height: 100%;
+
+	object-fit: cover;
+
+	object-position: center;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+h1{
+
+    font-family: 'Kanit', sans-serif;
+
+    font-weight: bold;
+
+	font-size: 30px;
+
+    color:#282735;
+
+    letter-spacing: 2px;
+
+    text-align: center;
+
+
+
+
+
+}
+
+
+
+
+
